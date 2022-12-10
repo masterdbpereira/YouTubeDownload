@@ -10,7 +10,7 @@ These videos can also be downloaded as audio.
 This software is not to be used to violate any laws.
 
 ### Download Pre-Built Binaries
-Unless you want to use the CLI or do something with the
+Unless you are wanting to use the CLI or do something with the
 scripts themselves, you are most likely looking for the binaries.
 * [Download Windows](https://github.com/YouTubeDownload/YouTubeDownload/releases/download/v2.2/YouTube.Download.exe)
 * [Download Linux](https://github.com/YouTubeDownload/YouTubeDownload/releases/download/v2.2/YouTubeDownload-linux)
@@ -69,7 +69,7 @@ Here's the demo on how to use it
 If you want to build binaries, make sure you have pywin32 installed (Windows only),
 as well as pyinstaller. Then run the following command from the script directory.
 
-    pyinstaller --clean --onefile pyinstaller.spec
+    pyinstaller --clean pyinstaller.spec
     
 The binary will be put into the `dist` directory within the script directory.
     
